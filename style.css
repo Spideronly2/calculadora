@@ -16,17 +16,13 @@ body {
     width: 300px;
 }
 
-#display {
-    width: 100%;
-    height: 60px;
-    font-size: 2em;
-    text-align: right;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    background: #333;
-    color: white;
-    margin-bottom: 10px;
+.display {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
 }
 
 .botoes {
